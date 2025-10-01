@@ -1,12 +1,12 @@
-Installation & Setup
+1) Installation & Setup
 
-Clone the repository
+1.1) Clone the repository
 
 git clone https://github.com/shikhaj4/restaurant-bot.git
 cd restaurant-bot
 
 
-Create and activate a virtual environment
+1.2) Create and activate a virtual environment
 
 python -m venv .venv
 # Windows
@@ -18,24 +18,24 @@ Install dependencies
 pip install -r requirements.txt
 
 
-Set Cohere API key
+1.3) Set Cohere API key
 
 # Windows
 set HF_API_KEY=cohere_api_key
 
-How to Run
+2) How to Run the project
 
-Start the FastAPI backend
+2.1) Start the FastAPI backend
 
 uvicorn single_backend:app --reload
 
 
-Start the Streamlit frontend
+2.2) Start the Streamlit frontend
 
 streamlit run streamlit_ui.py
 
 
-Use the Chatbot
+3) Use the Chatbot
 
 Open the Streamlit UI in your browser 
 
