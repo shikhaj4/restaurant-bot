@@ -1,3 +1,5 @@
+Please note, step 1 is for Windows machine
+
 1) Installation & Setup
 
 1.1) Clone the repository
@@ -9,7 +11,7 @@ cd restaurant-bot
 1.2) Create and activate a virtual environment
 
 python -m venv .venv
-# Windows
+
 .venv\Scripts\activate
 
 
@@ -20,7 +22,7 @@ pip install -r requirements.txt
 
 1.3) Set Cohere API key
 
-# Windows
+
 set HF_API_KEY=cohere_api_key
 
 2) How to Run the project
